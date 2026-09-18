@@ -1,15 +1,12 @@
-# node-express-web-server
-A basic web server built with Node.js and Express.js as part of my software development coursework.
+# Node.js Express Web Server
 
-## Features
+Archived academic project completed as part of my Software Development coursework.
 
-- Serves static website files
-- Uses Express.js for server configuration
-- Handles HTTP GET requests
-- Uses Handlebars for page rendering
-- Runs locally on port 3000
+## Overview
 
-## Technologies
+This project is a basic web server built with Node.js and Express.js. It demonstrates foundational backend and web development concepts, including server configuration, static file serving, Handlebars setup, and HTTP GET route handling.
+
+## Technologies Used
 
 - Node.js
 - Express.js
@@ -18,11 +15,25 @@ A basic web server built with Node.js and Express.js as part of my software deve
 - HTML
 - CSS
 
-## How to Run
+## Features
 
-1. Clone the repository.
-2. Install dependencies:
+- Configured an Express.js web server
+- Served static website files
+- Configured Handlebars as a view engine
+- Implemented HTTP GET route handling
+- Returned server responses
+- Ran the application locally during development
 
-   ```bash
-     npm install
-     nom start
+## Project Structure
+
+- `src/app.js` — Express server setup and route handling
+- `public/` — Static website files
+- `js/` — Client-side JavaScript
+- `package.json` — Project configuration and dependencies
+
+## Installation
+
+Install the project dependencies with:
+
+```bash
+npm install
